@@ -1,0 +1,7 @@
+ BFS might be faster if the goal is close. DFS might be faster if it finds the right path first.
+
+ O(V + E). BFS checks the vertices and edges in the graph, so it could end up checking everything.
+
+An adjacency matrix uses more memory because it saves space for every possible connection, even if two people aren't friends. An adjacency list only saves the connections that exist.
+
+Exploring a maze. You follow one path until you reach a dead end. Then you go back and try another path. This is DFS
