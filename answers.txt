@@ -1,4 +1,4 @@
- BFS might be faster if the goal is close. DFS might be faster if it finds the right path first.
+BFS might be faster if the goal is close. DFS might be faster if it finds the right path first.
 
  O(V + E). BFS checks the vertices and edges in the graph, so it could end up checking everything.
 
